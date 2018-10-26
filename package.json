@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.7",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.2.0",
+    "style-loader": "^0.23.1",
+    "sugarss": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^3.12.0"
+  }
+}
